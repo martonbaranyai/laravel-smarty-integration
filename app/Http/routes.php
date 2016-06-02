@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('/smarty/hello', 'SmartyTestController@helloWorld');
-Route::get('/smarty/hello/{name}', 'SmartyTestController@helloName');
+Route::get('/smarty/hello', 'SmartyController@helloWorld');
+Route::get('/smarty/hello/{name}', 'SmartyController@helloName');

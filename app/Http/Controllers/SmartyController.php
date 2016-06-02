@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class SmartyTestController extends Controller
+class SmartyController extends Controller
 {
     public function helloWorld()
     {
